@@ -1,4 +1,2 @@
-pyarrow
-pandas
 google-cloud
-dbt-bigquery
+requests
