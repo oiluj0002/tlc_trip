@@ -1,0 +1,26 @@
+[
+    {
+        "name": "LocationID",
+        "type": "INTEGER",
+        "mode": "REQUIRED",
+        "description": "Id do local"
+    },
+    {
+        "name": "Borough",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Bairro"
+    },
+    {
+        "name": "Zone",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Zona"
+    },
+    {
+        "name": "service_zone",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Zona de serviço"
+    }
+]

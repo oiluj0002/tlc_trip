@@ -1,0 +1,116 @@
+[
+    {
+        "name": "ID",
+        "type": "INTEGER",
+        "mode": "REQUIRED",
+        "description": "Id das viagens"
+    },
+    {
+        "name": "VendorID",
+        "type": "INTEGER",
+        "mode": "REQUIRED",
+        "description": "Id do provedor"
+    },
+    {
+        "name": "tpep_pickup_datetime",
+        "type": "DATETIME",
+        "mode": "REQUIRED",
+        "description": "Data de inicio da viagem"
+    },
+    {
+        "name": "tpep_dropoff_datetime",
+        "type": "DATETIME",
+        "mode": "REQUIRED",
+        "description": "Data de término da viagem"
+    },
+    {
+        "name": "passenger_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Quantidade de passageiros"
+    },
+    {
+        "name": "trip_distance",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Distância da viagem"
+    },
+    {
+        "name": "RatecodeID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Id do código de tarifa"
+    },
+    {
+        "name": "store_and_fwd_flag",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "ID da flag"
+    },
+    {
+        "name": "PULocationID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "ID do local de início"
+    },
+    {
+        "name": "DOLocationID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "ID do local de término"
+    },
+    {
+        "name": "payment_type",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Id do tipo de pagamento"
+    },
+    {
+        "name": "fare_amount",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Valor da viagem"
+    },
+    {
+        "name": "extra",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Valor do extra"
+    },
+    {
+        "name": "mta_tax",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Valor da taxa MTA"
+    },
+    {
+        "name": "tip_amount",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Valor da gorgeta"
+    },
+    {
+        "name": "tolls_amount",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Valor do pedagio"
+    },
+    {
+        "name": "improvement_surcharge",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Valor da sobretaxa de melhoria"
+    },
+    {
+        "name": "congestion_surcharge",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Valor da sobretaxa de congestionamento"
+    },
+    {
+        "name": "Airport_fee",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Valor da taxa de aeroporto"
+    }
+]
